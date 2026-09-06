@@ -11,12 +11,15 @@
   },
   "author": "ivan svetlov",
   "license": "ISC",
-
   "devDependencies": {
+    "@types/node": "^26.4.1",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
     "baseline-browser-mapping": "^2.11.20",
+    "css-loader": "^7.1.5",
+    "dotenv-webpack": "^9.0.0",
     "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
     "ts-loader": "^9.6.2",
     "typescript": "^6.0.3",
     "webpack": "^5.110.1",
@@ -24,6 +27,7 @@
     "webpack-dev-server": "^6.0.0"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.115.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }

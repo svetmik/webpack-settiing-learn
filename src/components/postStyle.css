@@ -1,0 +1,17 @@
+
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    column-gap: 12px;
+    padding: 12px;
+    border: 2px solid green;
+}
+
+.post__forma {
+    display: flex;
+    flex-direction: column;
+}
